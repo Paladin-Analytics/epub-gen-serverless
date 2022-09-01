@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "compile": "coffee --compile --output ./ ./",
-    "test": "node test"
+    "test": "node test",
+    "release": "standard-version && git push --follow-tags && npm publish"
   },
   "repository": {
     "type": "git",
