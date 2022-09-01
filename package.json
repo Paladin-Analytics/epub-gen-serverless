@@ -1,6 +1,6 @@
 {
   "name": "@paladin-analytics/epub-gen-serverless",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A library to generate EPUB from HTML, optimized to work with aws lambda",
   "main": "index.js",
   "scripts": {
