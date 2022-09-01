@@ -1,7 +1,7 @@
 {
-  "name": "epub-gen",
-  "version": "0.1.0",
-  "description": "A library to generate EPUB from HTML",
+  "name": "@paladin-analytics/epub-gen-serverless",
+  "version": "0.1.1",
+  "description": "A library to generate EPUB from HTML, optimized to work with aws lambda",
   "main": "index.js",
   "scripts": {
     "compile": "coffee --compile --output ./ ./",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cyrilis/epub-gen.git"
+    "url": "https://github.com/Paladin-Analytics/epub-gen-serverless"
   },
   "keywords": [
     "epub",
@@ -40,6 +40,7 @@
     "uslug": "^1.0.4"
   },
   "devDependencies": {
-    "coffeescript": "^2.3.2"
+    "coffeescript": "^2.3.2",
+    "standard-version": "^9.5.0"
   }
 }
