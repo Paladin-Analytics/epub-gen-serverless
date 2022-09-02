@@ -1,3 +1,4 @@
+# Warning: lib/index.js has direct changes, compiling this into js will replace them
 path = require "path"
 fs = require "fs"
 Q = require "q"
